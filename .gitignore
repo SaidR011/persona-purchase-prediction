@@ -1,0 +1,12 @@
+# Files git should NOT upload to GitHub
+
+# The downloaded dataset (about 400 MB). Anyone can re-download it with get_data.py
+data/
+
+# The Python tool box. Anyone can rebuild it with: pip install datasets pandas
+.venv/
+
+# Temporary files
+scratch/
+__pycache__/
+.DS_Store
