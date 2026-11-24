@@ -10,7 +10,7 @@ snapshot_download(
     # Only these parts: the README (instructions), the per-wave answers,
     # and the full personas. We skip "raw_data" (other researchers' AI runs).
     allow_patterns=["README.md", "wave_split/*", "full_persona/*"],
-    local_dir="data",          # save into ./data inside talp-project
+    local_dir="data",          # save into ./data inside the project folder
 )
 
 # Print what we got, with file sizes, so we can check it worked.
