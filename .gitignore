@@ -10,3 +10,7 @@ data/
 scratch/
 __pycache__/
 .DS_Store
+
+# Trained adapters (about 30 MB per checkpoint, 500+ MB in total). Too big for GitHub;
+# they can be recreated with the training commands.
+adapters/

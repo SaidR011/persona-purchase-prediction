@@ -1,0 +1,67 @@
+Loading model + adapter adapters/main_run2...
+Fetching 11 files:   0%|          | 0/11 [00:00<?, ?it/s]Fetching 11 files: 100%|██████████| 11/11 [00:00<00:00, 2421.27it/s]
+10/500 people | accuracy so far 69.50% | 54s
+20/500 people | accuracy so far 70.00% | 108s
+30/500 people | accuracy so far 69.75% | 162s
+40/500 people | accuracy so far 70.00% | 216s
+50/500 people | accuracy so far 70.90% | 270s
+60/500 people | accuracy so far 70.46% | 323s
+70/500 people | accuracy so far 70.32% | 377s
+80/500 people | accuracy so far 70.41% | 431s
+90/500 people | accuracy so far 70.42% | 485s
+100/500 people | accuracy so far 70.00% | 538s
+110/500 people | accuracy so far 70.02% | 592s
+120/500 people | accuracy so far 70.02% | 646s
+130/500 people | accuracy so far 69.58% | 700s
+140/500 people | accuracy so far 69.71% | 754s
+150/500 people | accuracy so far 69.40% | 808s
+160/500 people | accuracy so far 69.06% | 862s
+170/500 people | accuracy so far 69.19% | 916s
+180/500 people | accuracy so far 69.03% | 970s
+190/500 people | accuracy so far 69.13% | 1024s
+200/500 people | accuracy so far 69.06% | 1078s
+210/500 people | accuracy so far 68.89% | 1131s
+220/500 people | accuracy so far 68.89% | 1185s
+230/500 people | accuracy so far 68.79% | 1239s
+240/500 people | accuracy so far 68.79% | 1293s
+250/500 people | accuracy so far 68.74% | 1347s
+260/500 people | accuracy so far 68.76% | 1401s
+270/500 people | accuracy so far 68.71% | 1454s
+280/500 people | accuracy so far 68.77% | 1508s
+290/500 people | accuracy so far 68.83% | 1562s
+300/500 people | accuracy so far 68.88% | 1616s
+310/500 people | accuracy so far 68.80% | 1670s
+320/500 people | accuracy so far 68.84% | 1724s
+330/500 people | accuracy so far 68.77% | 1778s
+340/500 people | accuracy so far 68.88% | 1832s
+350/500 people | accuracy so far 68.75% | 1885s
+360/500 people | accuracy so far 68.85% | 1939s
+370/500 people | accuracy so far 68.94% | 1993s
+380/500 people | accuracy so far 69.03% | 2047s
+390/500 people | accuracy so far 69.01% | 2101s
+400/500 people | accuracy so far 69.02% | 2155s
+410/500 people | accuracy so far 69.12% | 2209s
+420/500 people | accuracy so far 69.26% | 2263s
+430/500 people | accuracy so far 69.27% | 2317s
+440/500 people | accuracy so far 69.32% | 2371s
+450/500 people | accuracy so far 69.25% | 2425s
+460/500 people | accuracy so far 69.31% | 2478s
+470/500 people | accuracy so far 69.42% | 2532s
+480/500 people | accuracy so far 69.45% | 2586s
+490/500 people | accuracy so far 69.34% | 2640s
+500/500 people | accuracy so far 69.39% | 2694s
+
+RESULT (main_run2, 500 people, 20000 answers)
+  Model accuracy:              69.39%
+  Human ceiling (same people): 84.55%
+  Model as % of ceiling:       82.1%
+  Bar to beat (price rule, all 500): 73.07%
+  Model says Yes 57.5% of the time (real people: 43.7%)
+
+            real people buy %  model says yes %
+price band                                     
+$0-2                     73.4              98.6
+$2-5                     57.9              78.0
+$5-10                    33.7              47.3
+$10-20                   23.8              28.1
+$20+                     11.4               5.1
